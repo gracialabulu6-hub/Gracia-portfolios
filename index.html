@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GRACIAS - Présentation</title>
+  <style>
+    /* 🌈 Arrière-plan dégradé et style général */
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #1E90FF, #00BFFF);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: white;
+    }
+
+    /* 🧾 Carte principale */
+    .carte {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+      width: 350px;
+      backdrop-filter: blur(10px);
+    }
+
+    /* 🧍 Photo de profil */
+    .photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+    }
+
+    /* Titres */
+    h1 {
+      margin: 15px 0 5px;
+      font-size: 1.8em;
+    }
+    h2 {
+      margin: 0;
+      font-weight: 400;
+      color: #f0f0f0;
+    }
+
+    /* 🟡 Boutons et liens */
+    a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      background: #0044cc;
+      transition: 0.3s;
+    }
+    a:hover {
+      background: #002a80;
+    }
+
+    /* 💬 Description */
+    p {
+      margin-top: 10px;
+      line-height: 1.6;
+      color: #f8f8f8;
+    }
+
+    /* 📱 Responsive */
+    @media screen and (max-width: 500px) {
+      .carte {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="carte">
+    <img src="moi.jpg" alt="Photo de Gracias" class="photo">
+    <h1>GRACIAS SHIMIAH</h1>
+    <h2>Développeur & Étudiant en Informatique</h2>
+    <p>📍 Actuellement en Tunisie<br>Originaire de la République Démocratique du Congo 🇨🇩</p>
+    <p>Passionné par la technologie, la création d'interfaces et le développement web.</p>
+    <a href="mailto:gracias@example.com">✉️ Me contacter</a>
+    <a href="https://wa.me/243XXXXXXXXX" target="_blank">💬 WhatsApp</a>
+  </div>
+</body>
+</html>
